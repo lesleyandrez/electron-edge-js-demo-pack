@@ -1,0 +1,8 @@
+{
+    "name": "electron-edge-js-demo-pack",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+        "electron-edge-js": "^14.16.0"
+    }
+}

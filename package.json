@@ -1,0 +1,14 @@
+{
+  "name": "electron-edge-js-demo-pack",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "electron ./src/",
+    "pack": "electron-packager ./src/ TestApp --overwrite --prune=true",
+    "postinstall": "npm i --prefix src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.14",
+    "electron-packager": "^15.2.0"
+  }
+}
